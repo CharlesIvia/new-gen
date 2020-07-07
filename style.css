@@ -15,9 +15,6 @@ html {
 }
 
 /* Navigation styling */
-.header {
-  background: whitesmoke;
-}
 .nav {
   display: flex;
   align-items: center;
@@ -53,4 +50,33 @@ html {
 
 .name {
   padding-bottom: 3rem;
+}
+
+.first-para {
+  padding: 3rem 0;
+}
+
+.learn {
+  padding: 1.1rem 1.1rem;
+  border-radius: 3.6rem;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transition: all 150ms linear;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none !important;
+  text-transform: none;
+  text-transform: capitalize;
+  background: #161616;
+  color: white;
+  margin-top: 3rem;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  width: 10vw;
+}
+
+.learn:hover {
+  transition: all 150ms linear;
+  opacity: 0.85;
 }
