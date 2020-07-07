@@ -134,3 +134,10 @@ h1 {
 .small {
   margin-top: 2.5vh;
 }
+
+/* Action section */
+
+.actions {
+  height: 100vh;
+  background: white;
+}
