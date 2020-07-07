@@ -95,6 +95,12 @@ html {
   text-align: center;
   padding: 10vh 0 5vh 0;
 }
+
+.intro-two {
+  text-align: center;
+  padding: 10vh 0 5vh 0;
+  font-size: 2.8rem;
+}
 .all {
   display: flex;
   width: 100%;
@@ -142,12 +148,25 @@ h1 {
   background: white;
 }
 
+.act {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  justify-content: space-around;
+  background: rgb(36, 35, 35);
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 50vh;
+}
+
 .members {
   height: 120vh;
   background: whitesmoke;
 }
 
-.mems {
+.mems,
+.bew {
   text-align: center;
 }
 
