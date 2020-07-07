@@ -148,9 +148,38 @@ h1 {
 }
 
 .mems {
-    text-align: center;
+  text-align: center;
 }
 
 .stories {
-    height: 100vh;
+  height: 100vh;
+}
+
+/* Card styling */
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 15vw;
+  height: 30vh;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  margin-bottom: 3rem;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  background: whitesmoke;
+  transition: all 250ms ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.names {
+  padding-bottom: 1.6rem;
 }
