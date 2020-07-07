@@ -141,3 +141,16 @@ h1 {
   height: 100vh;
   background: white;
 }
+
+.members {
+  height: 120vh;
+  background: whitesmoke;
+}
+
+.mems {
+    text-align: center;
+}
+
+.stories {
+    height: 100vh;
+}
