@@ -8,3 +8,27 @@ html {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
 }
+
+.container {
+  padding: 0 20.5rem;
+}
+
+/* Navigation styling */
+.header {
+  background: black;
+  color: white;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  font-size: 1.8rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  width: 35vw;
+  justify-content: space-between;
+}
