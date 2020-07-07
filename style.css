@@ -99,7 +99,7 @@ html {
 .intro-two {
   text-align: center;
   padding: 10vh 0 5vh 0;
-  font-size: 2.8rem;
+  font-size: 3.2rem;
 }
 .all {
   display: flex;
@@ -201,4 +201,18 @@ h1 {
 
 .names {
   padding-bottom: 1.6rem;
+}
+
+/* Contact and footer page  */
+
+.contact {
+  height: 65vh;
+  background: whitesmoke;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.4rem;
+  height: 5vh;
+  background: whitesmoke;
 }
