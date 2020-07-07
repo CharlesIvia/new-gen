@@ -17,12 +17,14 @@
   <body>
     <div class="container header">
       <nav class="nav">
-        <div class="logo"><img src="images/logo.png" alt="" /></div>
+        <div class="logo">
+          <a href="#"><img src="images/logo.png" alt="" /></a>
+        </div>
         <div class="nav-items">
           <ul class="nav-list">
-            <li>Home</li>
-            <li>Who We Are</li>
-            <li>What We Do</li>
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#hero">Who We Are</a></li>
+            <li class="nav-item"><a href="#actions">What We Do</a></li>
           </ul>
         </div>
       </nav>
@@ -31,14 +33,14 @@
     <div class="container home">
       <div class="title">
         <h1 class="name">NewGen Mentors Club</h1>
-        <p class="first-para">Empower.Love.Hope</p>
+        <p class="first-para">Empower. Love. Hope</p>
         <button class="learn">
           Learn More
         </button>
       </div>
     </div>
 
-    <div class="container hero">
+    <div class="container hero" id="hero">
       <div class="intro">
         <h1>Who Are We?</h1>
         <div class="small">
@@ -92,7 +94,7 @@
     </div>
 
     <div class="actions">
-      <h1 class="intro-two">What we've been upto.</h1>
+      <h1 class="intro-two" id="actions">What we've been upto.</h1>
 
       <div class="act">
         <div class="ac">
