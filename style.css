@@ -35,6 +35,7 @@ html {
 .home {
   width: 100%;
   height: 90vh;
+  background: whitesmoke;
   background: url("images/home.png") center no-repeat;
   background-size: cover;
   /* background: black; */
@@ -79,4 +80,57 @@ html {
 .learn:hover {
   transition: all 150ms linear;
   opacity: 0.85;
+}
+
+/* Hero section */
+
+.hero {
+  height: 90vh;
+  width: 100%;
+  font-size: 1.4rem;
+  background: whitesmoke;
+}
+
+.intro {
+  text-align: center;
+  padding: 10vh 0 5vh 0;
+}
+.all {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  line-height: 2.8rem;
+}
+
+.students,
+.leaders,
+.volunteers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+}
+
+.more {
+  text-align: center;
+  padding-top: 2.5vh;
+}
+
+.iconify {
+  font-size: 5rem;
+  color: red;
+}
+
+.curated {
+  height: 5rem;
+  width: 50rem;
+  padding: none;
+  display: flex;
+}
+h1 {
+  padding-top: 2.5vh;
+}
+
+.small {
+  margin-top: 2.5vh;
 }
