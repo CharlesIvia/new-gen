@@ -115,7 +115,7 @@ a {
 }
 
 .title {
-  margin-top: 12vh;
+  margin-top: 17vh;
 }
 
 .name {
@@ -140,7 +140,6 @@ a {
   text-transform: capitalize;
   background: #161616;
   color: white;
-  margin-top: 3rem;
   font-size: 1.4rem;
   line-height: 2.2rem;
   width: 10vw;
